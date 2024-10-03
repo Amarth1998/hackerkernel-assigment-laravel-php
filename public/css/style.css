@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* *******************Layout***************************** */
+header.layout {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+header.layout a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* *************** ADmin page******************** */
+
+.homecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.homecontainer h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.homecontainer a {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.homecontainer a:hover {
+    background-color: #45a049;
+}
+
+/* ******************************** user dashboard******************************************* */
+h1 {
+    text-align: center;
+}
+
+#link {
+
+    margin-left: 90%;
+
+}
+
+a {
+    display: inline-block;
+    /* justify-items: end; */
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.no-users {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ff0000;
+}
+/* ******************** task dashboard **************** */
+
+.task-type {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+.task-type.pending {
+    background-color: red; 
+}
+.task-type.done {
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+}
+.task-type.unknown {
+    background-color: grey; 
+}
+
+/* *************************create user ********************* */
+.createuser-outerdiv {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.createuser-innerdiv {
+    margin-bottom: 30px;
+    display: block; 
+}
+
+.createuser-innerdiv input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+
+/* *********************Create Task***************************** */
+.task-container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.task-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.task-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.task-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

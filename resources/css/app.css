@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;  /* Set a clean font */
+    margin: 20px;  /* Add some margin around the page */
+}
+h1 {
+    text-align: center;  /* Center the header */
+}
+a {
+    display: inline-block;  /* Make the link a block element */
+    margin-bottom: 20px;  /* Add space below the link */
+    padding: 10px 15px;  /* Add padding for the link */
+    background-color: #4CAF50;  /* Add a background color */
+    color: white;  /* Set text color to white */
+    text-decoration: none;  /* Remove underline from the link */
+    border-radius: 5px;  /* Round the corners */
+}
+a:hover {
+    background-color: #45a049;  /* Darker shade on hover */
+}
+table {
+    width: 100%;  /* Make the table full width */
+    border-collapse: collapse;  /* Collapse table borders */
+    margin-top: 20px;  /* Add space above the table */
+}
+th, td {
+    padding: 10px;  /* Add padding inside table cells */
+    text-align: left;  /* Align text to the left */
+    border: 1px solid #ddd;  /* Add border to table cells */
+}
+th {
+    background-color: #f2f2f2;  /* Light grey background for headers */
+}
+tr:hover {
+    background-color: #f5f5f5;  /* Change background color on row hover */
+}
+.no-users {
+    text-align: center;  /* Center the message */
+    margin: 10px 0;  /* Add vertical margin around the message */
+    font-size: 1.2em;  /* Increase font size for visibility */
+    color: #ff0000;  /* Set text color to red for emphasis */
+}
